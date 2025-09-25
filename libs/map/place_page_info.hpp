@@ -105,7 +105,7 @@ public:
 
   /// Edit and add
   bool ShouldShowAddPlace() const;
-  bool ShouldShowAddBusiness() const { return IsBuilding(); }
+  bool ShouldShowAddBusiness() const { return false; }  //TODO: delete function when not used in iOS any more
   bool ShouldShowEditPlace() const;
 
   bool ShouldEnableAddPlace() const { return m_canEditOrAdd; }

@@ -146,7 +146,6 @@ public class PlacePageView extends Fragment
   private MaterialTextView mTvEntrance;
   private MaterialTextView mTvLastChecked;
   private View mEditPlace;
-  private View mAddOrganisation;
   private View mAddPlace;
   private View mEditTopSpace;
   private ShapeableImageView mColorIcon;
@@ -311,7 +310,6 @@ public class PlacePageView extends Fragment
     mTvEntrance = mEntrance.findViewById(R.id.tv__place_entrance);
     mTvLastChecked = mFrame.findViewById(R.id.place_page_last_checked);
     mEditPlace = mFrame.findViewById(R.id.ll__place_editor);
-    mAddOrganisation = mFrame.findViewById(R.id.ll__add_organisation);
     mAddPlace = mFrame.findViewById(R.id.ll__place_add);
     mEditTopSpace = mFrame.findViewById(R.id.edit_top_space);
     latlon.setOnLongClickListener(this);
@@ -672,21 +670,17 @@ public class PlacePageView extends Fragment
 
     if (RoutingController.get().isNavigating() || RoutingController.get().isPlanning())
     {
-      UiUtils.hide(mEditPlace, mAddOrganisation, mAddPlace, mEditTopSpace);
+      UiUtils.hide(mEditPlace, mAddPlace, mEditTopSpace);
     }
     else
     {
       UiUtils.showIf(Editor.nativeShouldShowEditPlace(), mEditPlace);
-      UiUtils.showIf(Editor.nativeShouldShowAddBusiness(), mAddOrganisation);
       UiUtils.showIf(Editor.nativeShouldShowAddPlace(), mAddPlace);
       MaterialButton mTvEditPlace = mEditPlace.findViewById(R.id.mb__place_editor);
-      MaterialButton mTvAddBusiness = mAddOrganisation.findViewById(R.id.mb__add_organisation);
       MaterialButton mTvAddPlace = mAddPlace.findViewById(R.id.mb__place_add);
       mTvEditPlace.setOnClickListener(this);
-      mTvAddBusiness.setOnClickListener(this);
       mTvAddPlace.setOnClickListener(this);
       mTvEditPlace.setEnabled(Editor.nativeShouldEnableEditPlace());
-      mTvAddBusiness.setEnabled(Editor.nativeShouldEnableAddPlace());
       mTvAddPlace.setEnabled(Editor.nativeShouldEnableAddPlace());
       final int editPlaceButtonColor =
           Editor.nativeShouldEnableEditPlace()
@@ -695,13 +689,11 @@ public class PlacePageView extends Fragment
                     UiUtils.getStyledResourceId(getContext(), com.google.android.material.R.attr.colorSecondary))
               : ContextCompat.getColor(getContext(), R.color.button_accent_text_disabled);
       mTvEditPlace.setTextColor(editPlaceButtonColor);
-      mTvAddBusiness.setTextColor(editPlaceButtonColor);
       mTvAddPlace.setTextColor(editPlaceButtonColor);
       mTvEditPlace.setStrokeColor(ColorStateList.valueOf(editPlaceButtonColor));
-      mTvAddBusiness.setStrokeColor(ColorStateList.valueOf(editPlaceButtonColor));
       mTvAddPlace.setStrokeColor(ColorStateList.valueOf(editPlaceButtonColor));
       UiUtils.showIf(
-          UiUtils.isVisible(mEditPlace) || UiUtils.isVisible(mAddOrganisation) || UiUtils.isVisible(mAddPlace),
+          UiUtils.isVisible(mEditPlace) || UiUtils.isVisible(mAddPlace),
           mEditTopSpace);
     }
     updateLinksView();
@@ -837,11 +829,6 @@ public class PlacePageView extends Fragment
     UiUtils.hide(mTvOpenState);
   }
 
-  private void addOrganisation()
-  {
-    ((MwmActivity) requireActivity()).showPositionChooserForEditor(true, true);
-  }
-
   private void addPlace()
   {
     ((MwmActivity) requireActivity()).showPositionChooserForEditor(false, true);
@@ -859,8 +846,6 @@ public class PlacePageView extends Fragment
     }
     else if (id == R.id.mb__place_editor)
       ((MwmActivity) requireActivity()).showEditor();
-    else if (id == R.id.mb__add_organisation)
-      addOrganisation();
     else if (id == R.id.mb__place_add)
       addPlace();
     else if (id == R.id.ll__place_latlon)
