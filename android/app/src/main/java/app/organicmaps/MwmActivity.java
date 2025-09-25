@@ -107,6 +107,7 @@ import app.organicmaps.sdk.routing.RoutingOptions;
 import app.organicmaps.sdk.search.SearchEngine;
 import app.organicmaps.sdk.settings.RoadType;
 import app.organicmaps.sdk.settings.UnitLocale;
+import app.organicmaps.sdk.sound.TtsPlayer;
 import app.organicmaps.sdk.util.Config;
 import app.organicmaps.sdk.util.LocationUtils;
 import app.organicmaps.sdk.util.PowerManagment;
@@ -132,7 +133,6 @@ import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.textview.MaterialTextView;
-
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -1813,6 +1813,18 @@ public class MwmActivity extends BaseMwmFragmentActivity
     return false;
   }
 
+  private void deliverTtsMessage()
+  {
+    if (Config.isTtsMessageDelivered())
+      return;
+
+    String navigationStartMessage = getResources().getString(R.string.navigation_start_tts_message);
+    navigationStartMessage += TtsPlayer.INSTANCE.getLanguageDisplayName();
+    Toast.makeText(this, navigationStartMessage, Toast.LENGTH_LONG).show();
+
+    Config.setTtsMessageDelivered();
+  }
+
   private boolean showStartPointNotice()
   {
     final RoutingController controller = RoutingController.get();
@@ -2188,6 +2200,8 @@ public class MwmActivity extends BaseMwmFragmentActivity
 
     if (!showRoutingDisclaimer())
       return;
+
+    deliverTtsMessage();
 
     closeFloatingPanels();
     setFullscreen(false);
