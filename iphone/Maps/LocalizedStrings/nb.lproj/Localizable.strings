@@ -250,7 +250,7 @@
 "pref_tts_language_title" = "Talespråk";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "Test taleanvisninger (TTS, tekst-til-tale)";
+"pref_tts_test_voice_title" = "Test taleanvisninger";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "Andre";
@@ -567,7 +567,7 @@
 "add_language" = "Legg til et språk";
 
 /* Editable House Number text field (in address block). */
-"house_number" = "Et husnummer";
+"house_number" = "Husnummer";
 "details" = "Detaljer";
 
 /* Text field to enter non-existing street name, below list of known streets around */
@@ -575,8 +575,8 @@
 "choose_language" = "Velg et språk";
 "choose_street" = "Velg en gate";
 "postal_code" = "Postnummer";
-"cuisine" = "Matrett";
-"select_cuisine" = "Velg matrett";
+"cuisine" = "Kjøkken";
+"select_cuisine" = "Velg kjøkken";
 
 /* login text field */
 "email_or_username" = "E-postadresse eller brukernavn";
@@ -595,7 +595,7 @@
 "editor_add_select_category" = "Velg kategori";
 "editor_add_select_category_popular_subtitle" = "Populære";
 "editor_add_select_category_all_subtitle" = "Alle kategorier";
-"editor_edit_place_title" = "Redigerer";
+"editor_edit_place_title" = "Redigering";
 "editor_add_place_title" = "Legger til";
 "editor_edit_place_name_hint" = "Navn på stedet";
 

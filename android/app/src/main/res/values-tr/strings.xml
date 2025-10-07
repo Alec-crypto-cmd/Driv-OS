@@ -9,7 +9,7 @@
     <string name="delete">Sil</string>
     <string name="download_maps">Harita İndir</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">İndirme başarısız olmuştur, yeniden denemek için dokunun.</string>
+    <string name="download_has_failed">İndirme başarısız oldu, Tekrar denemek için dokunun.</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">İndiriliyor…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -82,7 +82,7 @@
     <!-- Settings button in system menu -->
     <string name="settings">Ayarlar</string>
     <!-- Header of settings activity where user defines storage path -->
-    <string name="maps_storage">Haritaları şuraya kaydet:</string>
+    <string name="maps_storage">Haritaları şuraya kaydet</string>
     <!-- Detailed description of Maps Storage settings button -->
     <string name="maps_storage_summary">Haritaların indirileceği klasörü seçin</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
@@ -225,7 +225,7 @@
     <!-- Settings «Route» category: «Test Voice Directions» title -->
     <string name="pref_tts_test_voice_title">Sesli Navigasyon Testi</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
-    <string name="pref_tts_playing_test_voice">Sesi duyamıyorsanız ses seviyesini veya sistem metin okuma ayarlarını kontrol edin.</string>
+    <string name="pref_tts_playing_test_voice">Sesi duyamıyorsanız ses seviyesini veya sistem metin okuma ayarlarını kontrol edin</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">Yok</string>
     <string name="pref_map_auto_zoom">Kendiliğinden yaklaştır</string>
@@ -271,7 +271,7 @@
     <string name="downloader_download_all_button">Tümünü İndir</string>
     <string name="downloader_downloading">İndiriliyor:</string>
     <!-- Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode -->
-    <string name="downloader_delete_map_while_routing_dialog">Haritayı silmek için lütfen navigasyonu kapatın.</string>
+    <string name="downloader_delete_map_while_routing_dialog">Haritayı silmek için lütfen navigasyonu kapatın</string>
     <!-- PointsInDifferentMWM -->
     <string name="routing_failed_cross_mwm_building">Rotalar yalnızca tümüyle tek bir bölgenin haritası içinde oluşturulabilir.</string>
     <!-- Context menu item for downloader. -->
@@ -873,4 +873,7 @@
     <string name="osm_note_toast">Notunuz OpenStreetMap\'e gönderilecektir</string>
     <string name="hours_confirmed_time_ago">%s onaylandı</string>
     <string name="existence_confirmed_time_ago">%s varlığı onaylandı</string>
+    <string name="share_track">Rotayı paylaş</string>
+    <string name="delete_track_dialog_title">%s silinsin mi?</string>
+    <string name="pref_tts_no_system_tts_short">Metinden sese dönüştürme motoru bulunamadı, uygulama ayarlarını kontrol edin</string>
 </resources>

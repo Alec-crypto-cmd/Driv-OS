@@ -1,11 +1,11 @@
 {
-"@category_eat": "طعام|أمكان لتناول الطعام",
-"@category_food": "طعام|بقالية",
+"@category_eat": "طعام|مكان لتناول الطعام|أكل|غذاء",
+"@category_food": "طعام|بقالة|بقال|بقول",
 "@category_transport": "مواصلات|مواصلات",
 "@category_fuel": "1وقود|بنزين|سولار|ديزل|وقود الحافلات",
 "@category_parking": "موقف سيارات|مرافق ركن السيارات",
 "@category_shopping": "تسوق",
-"@category_hotel": "فندق|الفنادق",
+"@category_hotel": "فندق|الفنادق|بانسيون|أوتيل",
 "@category_tourism": "سياحة",
 "@category_entertainment": "ترفيه وتسلية|تسلية",
 "@category_nightlife": "أنشطة ترفيه ليلية",
@@ -23,7 +23,7 @@
 "amenity-fast_food|@category_eat": "وجبات سريعة|مطعم|مقهى|وجبة جاهزة|طعام",
 "amenity-restaurant|@category_eat": "2مطعم|مقهى|طعام",
 "amenity-fuel|@category_fuel": "محطة وقود|بترول",
-"@shop": "متجر",
+"@shop": "محل|دكان|متجر",
 "shop-bakery|shop-pastry|@category_eat|@category_food|@shop": "مخبز|متجر",
 "shop-cosmetics|@category_shopping|@shop": "مستحضرات تجميل|تجميل",
 "shop-convenience|@category_food|@shop": "متجر صغير",
@@ -452,5 +452,7 @@
 "amenity-waste_transfer_station": "محطة نقل النفايات",
 "shop-carpet|@shop": "متجر سجادات",
 "shop-pasta|@shop": "المعكرونة",
-"amenity-luggage_locker": "خزانة الأمتعة"
+"amenity-luggage_locker": "خزانة الأمتعة",
+"shop-grocery|@category_food|@shop": "بقال|بقالة",
+"shop-health_food|@category_food|@shop": "طعام صحي|أكل صحي"
 }

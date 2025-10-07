@@ -457,7 +457,7 @@
     <string name="downloader_no_space_title">Недостаточно места</string>
     <string name="downloader_no_space_message">Удалите ненужные данные</string>
     <string name="editor_login_error_dialog">Не удалось войти</string>
-    <string name="editor_profile_changes">Учтённые правки</string>
+    <string name="editor_profile_changes">Учтенные правки</string>
     <string name="editor_focus_map_on_location">Перетащите карту, чтобы поместить крестик на место расположения добавляемого объекта или заведения.</string>
     <string name="editor_edit_place_title">Редактирование</string>
     <string name="editor_add_place_title">Добавление</string>
