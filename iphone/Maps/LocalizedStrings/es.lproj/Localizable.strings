@@ -1097,3 +1097,6 @@
 "pref_maplanguage_local" = "Idioma local";
 "existence_confirmed_time_ago" = "Existencia confirmada %@";
 "hours_confirmed_time_ago" = "Confirmado %@";
+"offline_explanation_text" = "Se debe descargar un mapa para ver y navegar el área\nDescarga mapas de las áreas que quieras navegar.";
+"offline_explanation_title" = "Mapas Offline";
+"avoid_steps" = "Evitar escalones";

@@ -886,4 +886,15 @@
     <string name="charge_socket_count">Recuento</string>
     <string name="charge_socket_power">Potencia (kW)</string>
     <string name="unknown_count">desconocido</string>
+    <string name="avoid_steps">Evitar escalones</string>
+    <string name="unknown_socket_type">enchufe desconocido</string>
+    <string name="unknow_socket_type">enchufe desconocido</string>
+    <string name="edit_socket_info_tooltip">Crear nuevo enchufe o editar existentes.</string>
+    <string name="charging_station_available_sockets">Enchufes disponibles</string>
+    <string name="charge_socket_unknown_other">Otros o desconocido</string>
+    <string name="editor_socket">Editar enchufe</string>
+    <string name="error_value_must_be_positive">El valor debe ser positivo</string>
+    <string name="error_invalid_number">Número inválido</string>
+    <string name="offline_explanation_title">Mapas Offline</string>
+    <string name="offline_explanation_text">Se debe descargar un mapa para ver y navegar el área\nDescarga mapas de las áreas que quieras navegar.</string>
 </resources>
