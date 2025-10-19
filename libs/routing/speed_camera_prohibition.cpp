@@ -13,6 +13,7 @@ std::vector<std::string> kSpeedCamerasProhibitedCountries = {
     "Macedonia",
     "Switzerland",
     "Turkey",
+    "Bosnia and Herzegovina",
 };
 
 // List of country names where an end user should be warned about speed cameras.
