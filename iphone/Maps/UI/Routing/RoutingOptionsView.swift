@@ -37,25 +37,67 @@ struct RoutingOptionsView: View {
         NavigationView {
             List {
                 Section {
-                    Toggle("avoid_tolls", isOn: $shouldAvoidTollRoadsWhileRouting)
-                        .tint(.accent)
+                    Toggle(isOn: $shouldAvoidTollRoadsWhileRouting) {
+                        Label {
+                            Text("avoid_tolls")
+                        } icon: {
+                            Image(shouldAvoidTollRoadsWhileRouting ? "tolls.slash" : "tolls")
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+                    .tint(.accent)
                     
-                    Toggle("avoid_unpaved", isOn: $shouldAvoidUnpavedRoadsWhileRouting)
-                        .tint(.accent)
-                        .disabled(shouldAvoidPavedRoadsWhileRouting)
+                    Toggle(isOn: $shouldAvoidUnpavedRoadsWhileRouting) {
+                        Label {
+                            Text("avoid_unpaved")
+                        } icon: {
+                            Image(shouldAvoidUnpavedRoadsWhileRouting ? "unpaved.slash" : "unpaved")
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+                    .tint(.accent)
+                    .disabled(shouldAvoidPavedRoadsWhileRouting)
                     
-                    Toggle("avoid_ferry", isOn: $shouldAvoidFerriesWhileRouting)
-                        .tint(.accent)
+                    Toggle(isOn: $shouldAvoidPavedRoadsWhileRouting) {
+                        Label {
+                            Text("avoid_paved")
+                        } icon: {
+                            Image(shouldAvoidPavedRoadsWhileRouting ? "paved.slash" : "paved")
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+                    .tint(.accent)
+                    .disabled(shouldAvoidUnpavedRoadsWhileRouting)
                     
-                    Toggle("avoid_motorways", isOn: $shouldAvoidMotorwaysWhileRouting)
-                        .tint(.accent)
+                    Toggle(isOn: $shouldAvoidMotorwaysWhileRouting) {
+                        Label {
+                            Text("avoid_motorways")
+                        } icon: {
+                            Image(shouldAvoidMotorwaysWhileRouting ? "motorways.slash" : "motorways")
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+                    .tint(.accent)
                     
-                    Toggle("avoid_steps", isOn: $shouldAvoidStepsWhileRouting)
-                        .tint(.accent)
+                    Toggle(isOn: $shouldAvoidFerriesWhileRouting) {
+                        Label {
+                            Text("avoid_ferry")
+                        } icon: {
+                            Image(shouldAvoidFerriesWhileRouting ? "ferries.slash" : "ferries")
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+                    .tint(.accent)
                     
-                    Toggle("avoid_paved", isOn: $shouldAvoidPavedRoadsWhileRouting)
-                        .tint(.accent)
-                        .disabled(shouldAvoidUnpavedRoadsWhileRouting)
+                    Toggle(isOn: $shouldAvoidStepsWhileRouting) {
+                        Label {
+                            Text("avoid_steps")
+                        } icon: {
+                            Image(shouldAvoidStepsWhileRouting ? "steps.slash" : "steps")
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+                    .tint(.accent)
                 }
             }
             .navigationTitle(String(localized: "driving_options_title"))
