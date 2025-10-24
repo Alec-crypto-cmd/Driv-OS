@@ -676,6 +676,7 @@ node|z16[tourism=motel],
 node|z16[tourism=hostel]
 {icon-image: hostel-m.svg;icon-min-distance: 24;}
 node|z16[tourism=guest_house],
+{icon-image: guest_house-m.svg;icon-min-distance: 24;text-halo-radius: 0;}
 node|z16[tourism=apartment],
 {icon-image: apartment-m.svg;icon-min-distance: 24;text-halo-radius: 0;}
 node|z13-14[tourism=alpine_hut],
