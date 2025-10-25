@@ -68,7 +68,9 @@ jobs:
         shell: bash
         run: |
           apt-get update -y
-          apt-get install -y pyosmium osmium-tool python3-venv wget2
+          apt-get install -y pyosmium osmium-tool python3-venv python3-pip wget2
+          rm -f /usr/lib/python*/EXTERNALLY-MANAGED
+          pip3 install "protobuf<4"
       - name: Download Planet File if Absent
         shell: bash
         run: |
@@ -186,13 +188,15 @@ jobs:
           libxcursor-dev \
           libxi-dev \
           zlib1g-dev
+          rm -f /usr/lib/python*/EXTERNALLY-MANAGED
+          pip3 install "protobuf<4"
       - name: Clone main repo if necessary
         shell: bash
         run: |
           if [ ! -d /media/4tbexternal/comaps-init ]; then
           apt-get update -qq && apt-get install -y --no-install-recommends git
           cd /media/4tbexternal
-          git clone --recurse-submodules --shallow-submodules -b rebase-generator-pastk --single-branch https://codeberg.org/comaps/comaps.git comaps-init
+          git clone --recurse-submodules --shallow-submodules -b rebase-generator-pastk-wb251014 --single-branch https://codeberg.org/comaps/comaps.git comaps-init
           fi
       - name: Update Isolines
         shell: bash
@@ -225,7 +229,9 @@ jobs:
       - name: Install dependencies
         shell: bash
         run: |
-          apt-get update -qq && apt-get install -y --no-install-recommends curl osmctools osmium-tool python3-venv ca-certificates git
+          apt-get update -qq && apt-get install -y --no-install-recommends curl osmctools osmium-tool python3-venv ca-certificates git python3-pip
+          rm -f /usr/lib/python*/EXTERNALLY-MANAGED
+          pip3 install "protobuf<4"
       - name: Clone subways if necessary
         shell: bash
         run: |
@@ -238,7 +244,7 @@ jobs:
         run: |
           if [ ! -d /media/4tbexternal/comaps-init ]; then
           cd /media/4tbexternal
-          git clone --recurse-submodules --shallow-submodules -b rebase-generator-pastk --single-branch https://codeberg.org/comaps/comaps.git comaps-init
+          git clone --recurse-submodules --shallow-submodules -b rebase-generator-pastk-wb251014 --single-branch https://codeberg.org/comaps/comaps.git comaps-init
           fi
       - name: Update Subways
         shell: bash
@@ -275,7 +281,7 @@ jobs:
         run: |
           if [ ! -d /media/4tbexternal/comaps-init ]; then
           cd /media/4tbexternal
-          git clone --recurse-submodules --shallow-submodules -b rebase-generator-pastk --single-branch https://codeberg.org/comaps/comaps.git comaps-init
+          git clone --recurse-submodules --shallow-submodules -b rebase-generator-pastk-wb251014 --single-branch https://codeberg.org/comaps/comaps.git comaps-init
           fi
       - name: Build address_parser
         shell: bash
@@ -347,7 +353,7 @@ jobs:
         run: |
           if [ ! -d /media/4tbexternal/comaps-init ]; then
           cd /media/4tbexternal
-          git clone --recurse-submodules --shallow-submodules -b rebase-generator-pastk --single-branch https://codeberg.org/comaps/comaps.git comaps-init
+          git clone --recurse-submodules --shallow-submodules -b rebase-generator-pastk-wb251014 --single-branch https://codeberg.org/comaps/comaps.git comaps-init
           fi
       - name: Make output folders if necessary
         shell: bash
