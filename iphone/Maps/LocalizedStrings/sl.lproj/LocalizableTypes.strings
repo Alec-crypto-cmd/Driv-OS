@@ -152,3 +152,4 @@
 "type.aeroway" = "Infrastruktura zračnega prostora";
 "type.amenity.love_hotel" = "Hotel za zaljubljence";
 "type.amenity.charging_station.motorcar.small" = "Polnilno mesto za avtomobile";
+"type.amenity.cinema" = "Kino";

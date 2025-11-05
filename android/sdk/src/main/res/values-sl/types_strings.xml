@@ -153,4 +153,5 @@
     <string name="type.leisure.amusement_arcade">Arkadne igre</string>
     <string name="type.amenity.charging_station.motorcar.small">Polnilno mesto za avtomobile</string>
     <string name="type.amenity.childcare">Vrtec</string>
+    <string name="type.amenity.cinema">Kino</string>
 </resources>

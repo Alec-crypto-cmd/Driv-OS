@@ -975,7 +975,7 @@
     <string name="type.shop.books">Bokhandel</string>
     <string name="type.shop.butcher">Slakter</string>
     <string name="type.shop.cannabis">Cannabisbutikk</string>
-    <string name="type.shop.car">Bil butikk</string>
+    <string name="type.shop.car">Bilforhandler</string>
     <string name="type.shop.car_parts">Bildeler</string>
     <string name="type.shop.car_repair">Bilverksted</string>
     <string name="type.shop.car_repair.tyres">Dekkreparasjon</string>
@@ -1353,4 +1353,14 @@
     <string name="type.railway.narrow_gauge.bridge">Smalsporet jernbanebru</string>
     <string name="type.railway.narrow_gauge.tunnel">Smalsporet jernbanetunnel</string>
     <string name="type.leisure.slipway">Slipp</string>
+    <string name="type.post_office.post_partner">Post i butikk</string>
+    <string name="type.amenity.pub">Pub</string>
+    <string name="type.historic.monument">Monument</string>
+    <string name="type.man_made.crane">Kran</string>
+    <string name="type.military.bunker">Bunker</string>
+    <string name="type.railway.construction">Jernbanebygging</string>
+    <string name="type.railway.funicular.bridge">Kabelbanebru</string>
+    <string name="type.railway.funicular.tunnel">Kabelbanetunnel</string>
+    <string name="type.military">Militært</string>
+    <string name="type.landuse.education">Utdanningsinstitusjon</string>
 </resources>
