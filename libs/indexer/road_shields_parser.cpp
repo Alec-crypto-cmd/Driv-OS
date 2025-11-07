@@ -558,6 +558,14 @@ public:
   {}
 };
 
+class HungaryRoadShieldParser : public SimpleRoadShieldParser
+{
+public:
+  explicit HungaryRoadShieldParser(std::string const & baseRoadNumber)
+  : SimpleRoadShieldParser(baseRoadNumber, {{"M", RoadShieldType::Hungary_Blue}}, RoadShieldType::Hungary_Green)
+  {}
+};
+
 class LativaRoadShieldParser : public SimpleRoadShieldParser
 {
 public:
@@ -874,6 +882,8 @@ RoadShieldsSetT GetRoadShields(std::string const & mwmName, std::string const & 
     return ItalyRoadShieldParser(roadNumber).GetRoadShields();
   if (mwmName == "Turkey")
     return TurkeyRoadShieldParser(roadNumber).GetRoadShields();
+  if (mwmName == "Hungary")
+    return HungaryRoadShieldParser(roadNumber).GetRoadShields();
   if (mwmName == "Lativa")
     return LativaRoadShieldParser(roadNumber).GetRoadShields();
   if (mwmName == "Moldova")
@@ -974,6 +984,8 @@ std::string DebugPrint(RoadShieldType shieldType)
   case RoadShieldType::US_Highway: return "US highway";
   case RoadShieldType::UK_Highway: return "UK highway";
   case RoadShieldType::Italy_Autostrada: return "Italy autostrada";
+  case RoadShieldType::Hungary_Green: return "hungary green";
+  case RoadShieldType::Hungary_Blue: return "hungary blue";
   case RoadShieldType::Hidden: return "hidden";
   case RoadShieldType::Count: CHECK(false, ("RoadShieldType::Count is not to be used as a type"));
   }
