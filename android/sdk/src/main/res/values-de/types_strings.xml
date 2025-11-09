@@ -1438,4 +1438,7 @@
     <string name="type.power.portal">Abspannportal</string>
     <string name="type.shop.lighting">Lampenladen</string>
     <string name="type.disusedbusiness">Leerstehendes Geschäft</string>
+    <string name="type.leisure.indoor_play">Indoor-Spielplatz</string>
+    <string name="type.amenity.car_pooling">Fahrgemeinschaften</string>
+    <string name="type.shop.telecommunication">Telekommunikationsgeschäft</string>
 </resources>

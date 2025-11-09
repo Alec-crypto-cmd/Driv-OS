@@ -1526,3 +1526,6 @@
 "type.building.guardhouse" = "Pförtnerhäuschen";
 "type.shop.lighting" = "Lampenladen";
 "type.disusedbusiness" = "Leerstehendes Geschäft";
+"type.amenity.car_pooling" = "Fahrgemeinschaften";
+"type.leisure.indoor_play" = "Indoor-Spielplatz";
+"type.shop.telecommunication" = "Telekommunikationsgeschäft";

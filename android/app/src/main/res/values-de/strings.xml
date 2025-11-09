@@ -893,4 +893,5 @@
     <string name="unknown_count">unbekannt</string>
     <string name="error_invalid_number">ungültige Zahl</string>
     <string name="list_description_empty">Liste bearbeiten, um eine Beschreibung hinzuzufügen</string>
+    <string name="avoid_paved">Befst. Straßen vermeiden</string>
 </resources>
