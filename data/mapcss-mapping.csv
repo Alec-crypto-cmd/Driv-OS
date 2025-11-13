@@ -987,7 +987,7 @@ highway|busway|tunnel;[highway=busway][tunnel?];;name;int_name;860;
 natural|salt_pond;861;landuse|salt_pond
 amenity|conference_centre;862;
 amenity|exhibition_centre;863;
-deprecated:railway|siding|tunnel:06.2023;864;x
+shop|beauty|day_spa;[shop=beauty][beauty=spa];;name;int_name;864;
 amenity|boat_rental;865;
 area:highway|footway;866;
 junction|circular;867;

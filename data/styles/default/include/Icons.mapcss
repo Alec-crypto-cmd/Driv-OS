@@ -2107,6 +2107,8 @@ node|z17-[shop=variety_store],
 {icon-image: shop-m.svg;}
 node|z17-[shop=massage],
 {icon-image: massage_salon-m.svg;icon-min-distance: 24;}
+node|z17-[shop=beauty][beauty=spa],
+{icon-image: day-spa-m.svg;icon-min-distance: 24;}
 node|z17-[shop=money_lender],
 {icon-image: bank-m.svg;icon-min-distance: 24;}
 node|z17-[shop=pawnbroker],

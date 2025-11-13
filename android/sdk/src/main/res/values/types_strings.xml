@@ -1236,6 +1236,7 @@
     <string name="type.shop.kitchen">Kitchen Store</string>
     <string name="type.shop.laundry">Laundry</string>
     <string name="type.shop.mall">Mall</string>
+    <string name="type.shop.beauty.day_spa">Day Spa</string>
     <string name="type.shop.massage">Massage Salon</string>
     <string name="type.shop.mobile_phone">Mobile Phone Store</string>
     <string name="type.shop.money_lender">Money Lender</string>

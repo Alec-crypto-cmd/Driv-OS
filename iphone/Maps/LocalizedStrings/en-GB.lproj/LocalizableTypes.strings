@@ -1291,6 +1291,7 @@
 "type.shop.kitchen" = "Kitchen Shop";
 "type.shop.laundry" = "Launderette";
 "type.shop.mall" = "Shopping Centre";
+"type.shop.beauty.day_spa" = "Day Spa";
 "type.shop.massage" = "Massage Salon";
 "type.shop.mobile_phone" = "Mobile Phone Shop";
 "type.shop.money_lender" = "Money Lender";
