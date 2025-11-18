@@ -904,4 +904,5 @@
     </plurals>
     <string name="editor_business_vacant_button">Geschäft ist leerstehend</string>
     <string name="editor_mark_business_vacant_title">Geschäft als leerstehend markieren</string>
+    <string name="editor_submit">Absenden</string>
 </resources>

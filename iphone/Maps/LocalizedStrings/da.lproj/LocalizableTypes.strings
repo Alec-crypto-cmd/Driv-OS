@@ -1486,7 +1486,7 @@
 "type.barrier.wicket_gate" = "Portlåge";
 "type.amenity.animal_shelter" = "Dyreinternat";
 "type.office.security" = "Sikkerhedsvagtkontor";
-"type.power.portal" = "Power Portal";
+"type.power.portal" = "Kraftværksportal";
 "type.building.guardhouse" = "Sikkerhedsbås";
 "type.shop.lighting" = "Lysbutik";
 "type.amenity.charging_station.motorcar.small" = "Ladestander til biler";
@@ -1500,7 +1500,7 @@
 "type.social_facility.food_bank" = "Fødevarebank";
 "type.social_facility.soup_kitchen" = "Suppekøkken";
 "type.man_made.telescope" = "Teleskop";
-"type.amenity.give_box" = "Donationsbøsse";
+"type.amenity.give_box" = "Bytteboks";
 "type.man_made.telescope.gamma" = "Teleskop (Gamma)";
 "type.amenity.car_pooling" = "Samkørsel";
 "type.shop.telecommunication" = "Telefonibutik";
@@ -1517,3 +1517,5 @@
 "type.leisure.sports_centre.sport.golf" = "Golfcenter";
 "type.leisure.sports_centre.sport.gymnastics" = "Gymnastikcenter";
 "type.leisure.sports_centre.sport.swimming" = "Svømmehal";
+"type.amenity.sailing_school" = "Sejlerskole";
+"type.amenity.flight_school" = "Flyveskole";

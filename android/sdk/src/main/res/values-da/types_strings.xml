@@ -1416,5 +1416,8 @@
     <string name="type.social_facility.food_bank">Fødevarebank</string>
     <string name="type.social_facility.soup_kitchen">Suppekøkken</string>
     <string name="type.amenity.food_sharing">Fødevarerdeling</string>
-    <string name="type.amenity.give_box">Donationsbøsse</string>
+    <string name="type.amenity.give_box">Bytteboks</string>
+    <string name="type.amenity.sailing_school">Sejlerskole</string>
+    <string name="type.amenity.flight_school">Flyveskole</string>
+    <string name="type.power.portal">Kraftværksportal</string>
 </resources>
