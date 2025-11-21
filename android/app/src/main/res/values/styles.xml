@@ -182,7 +182,7 @@
     <item name="android:gravity">center_vertical</item>
     <item name="colorAccent">@android:color/white</item>
     <item name="colorSecondary">@android:color/white</item>
-    <item name="android:homeAsUpIndicator">@drawable/ic_down</item>
+    <item name="android:homeAsUpIndicator">@drawable/ic_expand_more</item>
   </style>
 
   <style name="MwmWidget.ListView" parent="android:Widget.Material.ListView">

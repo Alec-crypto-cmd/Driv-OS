@@ -31,7 +31,7 @@
             android:background="?attr/selectableItemBackgroundBorderless"
             app:srcCompat="?homeAsUpIndicator"
             android:scaleType="center"
-            tools:src="@drawable/ic_down" />
+            tools:src="@drawable/ic_expand_more" />
 
         <RadioGroup
             android:id="@+id/route_type"
