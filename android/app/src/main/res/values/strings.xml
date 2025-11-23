@@ -316,7 +316,7 @@
     <!-- location service disabled -->
     <string name="enable_location_services">Please enable Location Services</string>
     <string name="save">Save</string>
-    <string name="create">create</string>
+    <string name="create">Create</string>
     <!-- red color -->
     <string name="red">Red</string>
     <!-- yellow color -->
