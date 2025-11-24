@@ -30,7 +30,7 @@ public:
 
   ChargeSocketsHelper(ChargeSocketDescriptors const & sockets) : m_chargeSockets(sockets), m_dirty(true) {}
 
-  /** Create a ChareSocketsHelper instance from an existing list of sockets
+  /** Create a ChargeSocketsHelper instance from an existing list of sockets
    * stored as "<type>|<nb>|[<power>];..."
    *
    * For instance:
