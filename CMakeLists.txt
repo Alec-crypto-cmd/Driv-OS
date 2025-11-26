@@ -114,19 +114,6 @@ if (${CMAKE_BUILD_TYPE} STREQUAL "RelWithDebInfo")
   add_compile_options(-fno-omit-frame-pointer)
 endif()
 
-# Linux GCC LTO plugin fix.
-if (PLATFORM_LINUX AND (CMAKE_CXX_COMPILER_ID STREQUAL "GNU") AND (CMAKE_BUILD_TYPE MATCHES "^Rel"))
-  # To force errors if LTO was not enabled.
-  add_compile_options(-fno-fat-lto-objects)
-  # To fix ar and ranlib "plugin needed to handle lto object".
-  string(REGEX MATCH "[0-9]+" GCC_MAJOR_VERSION ${CMAKE_CXX_COMPILER_VERSION})
-  file(GLOB_RECURSE plugin /usr/lib/gcc/*/${GCC_MAJOR_VERSION}*/liblto_plugin.so)
-  set(CMAKE_C_ARCHIVE_CREATE "<CMAKE_AR> --plugin ${plugin} qcs <TARGET> <OBJECTS>")
-  set(CMAKE_C_ARCHIVE_FINISH "<CMAKE_RANLIB> --plugin ${plugin} <TARGET>")
-  set(CMAKE_CXX_ARCHIVE_CREATE "<CMAKE_AR> --plugin ${plugin} qcs <TARGET> <OBJECTS>")
-  set(CMAKE_CXX_ARCHIVE_FINISH "<CMAKE_RANLIB> --plugin ${plugin} <TARGET>")
-endif()
-
 message(STATUS "Build type: " ${CMAKE_BUILD_TYPE})
 
 if (PLATFORM_LINUX OR PLATFORM_ANDROID)
