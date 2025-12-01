@@ -1103,3 +1103,4 @@
 "editor_place_doesnt_exist_description" = "Descrivi come appare il posto per inviare una nota alla comunità di OpenStreetMap";
 "voice" = "Voce";
 "unknown" = "Sconosciuto";
+"avoid_paved" = "Evita le strade asfaltate";

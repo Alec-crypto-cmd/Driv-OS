@@ -1489,4 +1489,12 @@
     <string name="type.shop.beauty.nails">Salon paznokci</string>
     <string name="type.shop.beauty.day_spa">Day spa</string>
     <string name="type.xmas.tree">Choinka</string>
+    <string name="type.amenity.payment_centre">Centrum płatności</string>
+    <string name="type.post_office.post_partner">Partner pocztowy</string>
+    <string name="type.emergency.access_point">Punkt ratunkowy</string>
+    <string name="type.amenity.give_box">Skrzynka darów</string>
+    <string name="type.cardinal.east">Wschód</string>
+    <string name="type.cardinal.north">Północ</string>
+    <string name="type.cardinal.south">Południe</string>
+    <string name="type.cardinal.west">Zachód</string>
 </resources>

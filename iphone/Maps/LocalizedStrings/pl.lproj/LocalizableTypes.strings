@@ -1481,7 +1481,7 @@
 "type.leisure.escape_game" = "Escape Room";
 "type.amenity.luggage_locker" = "Skrytka do przechowywania bagażu";
 "type.amenity.bicycle_parking.covered" = "Zadaszony parking dla rowerów";
-"type.post_office.post_partner" = "Post Partner";
+"type.post_office.post_partner" = "Partner pocztowy";
 "type.amenity.ranger_station" = "Budynek obsługi parku";
 "type.amenity.animal_shelter" = "Schronisko dla zwierząt";
 "type.barrier.wicket_gate" = "Furtka";
@@ -1581,3 +1581,10 @@
 "type.shop.beauty.nails" = "Salon paznokci";
 "type.shop.beauty.day_spa" = "Day spa";
 "type.xmas.tree" = "Choinka";
+"type.amenity.payment_centre" = "Centrum płatności";
+"type.emergency.access_point" = "Punkt ratunkowy";
+"type.amenity.give_box" = "Skrzynka darów";
+"type.cardinal.east" = "Wschód";
+"type.cardinal.north" = "Północ";
+"type.cardinal.south" = "Południe";
+"type.cardinal.west" = "Zachód";

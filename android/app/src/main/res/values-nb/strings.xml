@@ -894,4 +894,6 @@
     <string name="closes_at">Stenger %s</string>
     <string name="opens_at">Åpner %s</string>
     <string name="editor_submit">Send</string>
+    <string name="charge_socket_schuko">Schuko</string>
+    <string name="power_management">Strømstyring</string>
 </resources>

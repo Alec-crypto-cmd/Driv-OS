@@ -640,4 +640,5 @@
     <string name="unknown_socket_type">Unbekannte Aschluss</string>
     <string name="edit_socket_info_tooltip">Neui Aschlüss erstelle oder existierendi bearbeite.</string>
     <string name="charging_station_available_sockets">Verfüegbari Aschlüss</string>
+    <string name="power_management">Energiemanagement</string>
 </resources>

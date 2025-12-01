@@ -908,4 +908,11 @@
     </plurals>
     <string name="avoid_paved">Unikaj dróg utwardzonych</string>
     <string name="charge_socket_schuko">Schuko</string>
+    <string name="opens_day_at">Otwiera w %1$s o %2$s</string>
+    <string name="closes_day_at">Zamyka się w %1$s o %2$s</string>
+    <string name="editor_mark_business_vacant_description">Użyj tego, jeśli firma się wyprowadziła, a lokal jest pusty i gotowy na nowego najemcę.</string>
+    <string name="power_management">Zarządzanie zasilaniem</string>
+    <string name="pref_tts_no_system_tts_short">Nie znaleziono silnika text-to-speech, sprawdź ustawienia aplikacji</string>
+    <string name="list_description_empty">Edytuj listę, aby dodać opis</string>
+    <string name="editor_submit">Wyślij</string>
 </resources>

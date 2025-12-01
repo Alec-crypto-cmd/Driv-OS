@@ -895,4 +895,5 @@
     <string name="editor_mark_business_vacant_description">Utilizza questa opzione se l\'azienda ha traslocato e lo spazio è vuoto e pronto per un nuovo inquilino.</string>
     <string name="editor_submit">Conferma</string>
     <string name="charge_socket_chademo">CHAdeMO</string>
+    <string name="avoid_paved">Evita le strade asfaltate</string>
 </resources>

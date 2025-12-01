@@ -893,4 +893,5 @@
     <string name="editor_mark_business_vacant_description">Brug dette, hvis forretningen er flyttet ud, og lokalet står tomt og er klar til en ny lejer.</string>
     <string name="editor_submit">Indsend</string>
     <string name="power_management">Strømstyring</string>
+    <string name="charge_socket_schuko">Europæisk</string>
 </resources>
