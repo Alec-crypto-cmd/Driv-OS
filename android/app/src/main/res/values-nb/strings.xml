@@ -896,4 +896,7 @@
     <string name="editor_submit">Send</string>
     <string name="charge_socket_schuko">Schuko</string>
     <string name="power_management">Strømstyring</string>
+    <string name="navigation_start_tts_disabled_message">Taleveiledninger deaktivert: TTS-motor ikke tilgjengelig</string>
+    <string name="navigation_start_tts_message">"Starter navigering, taleveiledningsspråk: "</string>
+    <string name="prefs_speed_cameras_information">Fotoboksvarsler er deaktivert i land hvor varsler er forbudt i henhold til lokal lovgivning.</string>
 </resources>

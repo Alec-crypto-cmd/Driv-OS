@@ -255,4 +255,10 @@
     <string name="downloader_download_map">Preuzmi kartu</string>
     <string name="downloader_delete_map">Obriši kartu</string>
     <string name="downloader_update_map">Ažuriraj kartu</string>
+    <string name="dialog_routing_select_closer_end">Molimo odaberite odredišnu točku koja se nalazi bliže cesti</string>
+    <string name="dialog_routing_change_intermediate">Nije moguće pronaći međutočku</string>
+    <string name="dialog_routing_intermediate_not_determined">Molimo prilagodite svoju međutočku</string>
+    <string name="dialog_routing_system_error">Sistemska greška</string>
+    <string name="dialog_routing_application_error">Nije moguće napraviti rutu zbog greške u aplikaciji</string>
+    <string name="dialog_routing_try_again">Pokušajte ponovno</string>
 </resources>

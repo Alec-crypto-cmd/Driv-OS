@@ -915,4 +915,7 @@
     <string name="pref_tts_no_system_tts_short">Nie znaleziono silnika text-to-speech, sprawdź ustawienia aplikacji</string>
     <string name="list_description_empty">Edytuj listę, aby dodać opis</string>
     <string name="editor_submit">Wyślij</string>
+    <string name="prefs_speed_cameras_information">Ostrzeżenia o fotoradarach są wyłączone w krajach, gdzie takie alerty są zabronione prawnie.</string>
+    <string name="navigation_start_tts_message">"Startowanie nawigacji, język komunikatów głosowych: "</string>
+    <string name="navigation_start_tts_disabled_message">Komunikaty głosowe są wyłączone: silnik TTS jest niedostępny</string>
 </resources>

@@ -911,4 +911,5 @@
     <string name="charge_socket_schuko">欧盟标准</string>
     <string name="navigation_start_tts_message">"启动导航，语音指令语言： "</string>
     <string name="prefs_speed_cameras_information">在当地法律禁止发出警报的国家/地区，测速摄像头警告功能将被禁用。</string>
+    <string name="navigation_start_tts_disabled_message">语音指令已禁用：TTS 引擎不可用</string>
 </resources>

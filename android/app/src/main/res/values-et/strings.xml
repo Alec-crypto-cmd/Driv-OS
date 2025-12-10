@@ -903,4 +903,6 @@
     <string name="editor_submit">Saada</string>
     <string name="power_management">Toitehaldus</string>
     <string name="charge_socket_schuko">EU-sisene</string>
+    <string name="prefs_speed_cameras_information">Kiiruskaamerate teavitused on nendes riikides lülitatud välja, kus seda keelab kohalik seadusandlus.</string>
+    <string name="navigation_start_tts_message">"Alustan tee juhatamist, hääljuhiste keel: "</string>
 </resources>

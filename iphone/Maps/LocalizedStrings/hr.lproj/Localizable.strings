@@ -439,7 +439,7 @@
 "dialog_incorrect_feature_position" = "Change location";
 "app_tip_01" = "With your donations and support, we can create the best maps in the World!";
 "downloader_status_failed" = "Failed";
-"dialog_routing_system_error" = "System error";
+"dialog_routing_system_error" = "Sistemska greška";
 "buildings" = "Buildings";
 "dialog_routing_download_and_build_cross_route" = "Would you like to download the map and create a more optimal route spanning more than one map?";
 "dialog_routing_disclaimer_beware" = "Please stay alert and safe on the roads!";
@@ -479,7 +479,7 @@
 "placepage_remove_stop" = "Remove Stop";
 "core_placepage_unknown_place" = "Map Point";
 "elevation_profile_diff_level_hard" = "Hard";
-"dialog_routing_try_again" = "Please try again";
+"dialog_routing_try_again" = "Pokušajte ponovno";
 "no_available" = "No";
 "fuel_places" = "Gas Stations";
 "clear_search" = "Clear Search History";

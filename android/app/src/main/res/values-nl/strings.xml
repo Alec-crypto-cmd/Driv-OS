@@ -909,4 +909,5 @@
     <string name="charge_socket_schuko">Binnenlandse EU</string>
     <string name="navigation_start_tts_message">"Navigatie starten, taal voor steminstructie: "</string>
     <string name="prefs_speed_cameras_information">Waarschuwingen voor flitsers zijn uitgeschakeld in landen waar deze wettelijk zijn verboden.</string>
+    <string name="navigation_start_tts_disabled_message">Spraakinstructies uitgeschakeld: TTS-engine niet beschikbaar</string>
 </resources>
