@@ -89,6 +89,8 @@
     android:paddingHorizontal="@dimen/margin_base"
     tools:text="Existence confirmed 1 month ago"/>
 
+  <include android:visibility="gone" layout="@layout/place_page_map_too_old"/>
+
   <include android:visibility="gone" layout="@layout/place_page_editor"/>
 
   <include android:visibility="gone" layout="@layout/place_page_add"/>

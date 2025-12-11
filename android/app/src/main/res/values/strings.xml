@@ -573,6 +573,16 @@
     <string name="error_enter_correct_fediverse_page">Enter a valid Mastodon username or web address</string>
     <string name="error_enter_correct_bluesky_page">Enter a valid Bluesky username or web address</string>
     <string name="placepage_add_place_button">Add Place to OpenStreetMap</string>
+    <!-- Title of info shown when the map is older than 3 to 6 months -->
+    <string name="place_page_map_too_old_title">Map data outdated</string>
+    <!-- Description of info shown when the map is older than 3 months -->
+    <string name="place_page_map_too_old_description"> Your current map data is very old, please update the map.</string>
+    <!-- Description of info shown when the app and the map are older than 6 months -->
+    <string name="place_page_app_too_old_description"> Your current map data is very old, please update the CoMaps app.</string>
+    <!-- Button to update map region, part of the map too old info -->
+    <string name="place_page_update_too_old_map">Update map region</string>
+    <!-- Toast shown after pressing add place / edit OpenStreetMap when editing is disabled -->
+    <string name="place_page_too_old_to_edit">OpenStreetMap editing is disabled because the map data is too old.</string>
     <string name="osm_note_hint">Or, alternatively, leave a note to OpenStreetMap community so that someone else can add or fix a place here.</string>
     <string name="osm_note_toast">Note will be sent to OpenStreetMap</string>
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
